@@ -132,6 +132,82 @@ body {
 }
 /* about section end here */
 
+/*recipe section start here*/
+
+.recip-head{
+    text-align: center;
+    color:#2c3e50;
+    margin:60px 20px;
+}
+.recip-head h1{ 
+    font-size: 60px;
+}
+.recip-head p{
+    width:600px;
+    margin: 0 auto;
+}
+
+
+.recip-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+    margin-bottom: 80px;
+}
+#common{
+    color:#2c3e50;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    padding:40px 20px;
+    margin:0px 30px;
+    border-radius: 15px;
+    /* width: 30%; */
+} 
+#common h2{
+    width:200px;
+    font-weight: bold;
+}
+#common img{
+    margin-bottom: 40px;
+    border-radius: 20px;    
+}
+#common p{
+    width:300px;
+}
+#common h2,p{
+    margin-bottom: 20px;
+}
+
+.card-1 img{
+    width:300px;
+}
+.card-2 img{
+    width:300px;
+}
+.card-3 img{
+    width:300px;
+}
+
+
+.recip-footer{
+    display: flex;
+    justify-content:center;
+    margin:100px 220px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
+}
+.common-footer{
+        padding:40px 40px;
+        color:#2c3e50;
+        margin-right: 40px;
+}
+.common-footer span{
+    color:#1abc9c;
+    font-size: 40px;
+    font-Weight:bold;
+}
+
+/*recipe section end here*/
+
 .empty{
     height:800px;
 }
