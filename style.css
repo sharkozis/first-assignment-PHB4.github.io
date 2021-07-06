@@ -9,7 +9,7 @@ body {
     /*from google fonts*/
 }
 #btn{
-    background-image: linear-gradient(to right, #e96443,#904e95); /*color choses from uiGradient.com*/
+    background-image: linear-gradient(to right, #e96443,#904e95); /*color chosen from uiGradient.com*/
     border: none;
     outline: none;
     padding: 10px 35px;
@@ -17,8 +17,11 @@ body {
     font-size: 20px;
     border-radius: 40px;
 }
-
-/* header parts start here */
+#btn:hover{
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+/* ---------------------------------header parts start here--------------------------------- */
 
 .navbar{
     background-color:#e96443;
@@ -26,11 +29,9 @@ body {
     overflow:auto;
     padding:20px;
     position: sticky;
-
 }
 .navbar i{
     float:left;
-    /* width:40%; */
     margin:0px 10px;
     color: white;
     font-size: 30px;
@@ -45,14 +46,15 @@ body {
 .navbar ul li{
     list-style-type:none;
     margin-right: 20px;
-    transition: 1s all;
+   
 }
-.navbar ul li:hover{
+.navbar ul li a:hover{
     border-bottom: 1px solid white;
     transition: 0.6s all;
 }
 .navbar ul li a{
     text-decoration:none;
+    transition: 1s all;
     color:white; /*ui color palette*/
 }
 
@@ -89,9 +91,9 @@ body {
     width:40%;
     margin:30px 40px;
 }
-/* header parts end here */
+/*----------------------------- header parts end here ----------------------------------*/
 
-/* about section start here */
+/*---------------------------- about section start here ---------------------------------*/
 
 .about{
     background-image: url(img/abt-bg.jpg);
@@ -130,9 +132,9 @@ body {
 .r-d p,h1{
     margin-bottom:30px;
 }
-/* about section end here */
+/*--------------------------------- about section end here ---------------------------------*/
 
-/*recipe section start here*/
+/*---------------------------------recipe section start here---------------------------------*/
 
 .recip-head{
     text-align: center;
@@ -161,7 +163,6 @@ body {
     padding:40px 20px;
     margin:0px 30px;
     border-radius: 15px;
-    /* width: 30%; */
 } 
 #common h2{
     width:200px;
@@ -206,7 +207,140 @@ body {
     font-Weight:bold;
 }
 
-/*recipe section end here*/
+/*---------------------------------recipe section end here---------------------------------*/
+/*---------------------------------order page start here---------------------------------*/
+.order{
+    display: flex;
+    width:100%;
+}
+.l-order{
+    width:50%;
+    margin:40px 0px 10px 0px;
+    position: relative;
+
+}
+.l-order h1{
+    color:#2c3e50;
+    text-align: center;  
+}
+.l-order form{
+    width:280px;
+    margin:0 auto;
+    /* border:1px solid red; */
+    padding:20px;
+}
+.l-order input{
+    padding:10px 35px;
+    margin-bottom: 50px;
+}
+.l-order span{
+    z-index:1;
+}
+#icon-1{
+    position:absolute;
+    top:10%;
+    left:31%   
+}
+#icon-2{
+    position:absolute;
+    top:20%;
+    left:31%;
+    padding-right: 10px;
+}
+#icon-3{
+    position:absolute;
+    top:29%;
+    left:31%;
+}
+input{
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    border:none;
+    border-right: 5px solid #e96443;
+}
+.signup{
+    width:100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.signup a{
+    text-decoration: none;
+}
+.anchor{
+    width:100%;
+   justify-content: center;
+    display: flex;
+}
+.anchor img{
+    width:50px;
+}
+.anchor a{
+    text-decoration: none;
+    margin-top: 13px;
+    color:#2c3e50;
+}
+.another-anchor{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+.another-anchor p{
+    padding-right: 15px;
+}
+.another-anchor a{
+    text-decoration: none;
+    color:#e96443;
+    font-weight: bold;
+}
+.another-anchor a:hover{
+    border-bottom: 2px solid #e96443;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .empty{
     height:800px;
