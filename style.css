@@ -21,6 +21,13 @@ body {
     box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
     cursor: pointer;
 }
+
+
+
+
+
+
+
 /* ---------------------------------header parts start here--------------------------------- */
 
 .navbar{
@@ -28,7 +35,6 @@ body {
     width:100%;
     overflow:auto;
     padding:20px;
-    position: sticky;
 }
 .navbar i{
     float:left;
@@ -37,7 +43,6 @@ body {
     font-size: 30px;
     padding-left: 80px;
 }
-
 .navbar ul{
     display:flex;
     float:right;
@@ -46,7 +51,6 @@ body {
 .navbar ul li{
     list-style-type:none;
     margin-right: 20px;
-   
 }
 .navbar ul li a:hover{
     border-bottom: 1px solid white;
@@ -93,6 +97,15 @@ body {
 }
 /*----------------------------- header parts end here ----------------------------------*/
 
+
+
+
+
+
+
+
+
+
 /*---------------------------- about section start here ---------------------------------*/
 
 .about{
@@ -106,11 +119,9 @@ body {
 .l-d{
     width:30%;
     margin:115px 40px 0px 200px;
-    
 }
 .l-d img{
     width:400px;
-    
 }
 
 
@@ -134,7 +145,16 @@ body {
 }
 /*--------------------------------- about section end here ---------------------------------*/
 
+
+
+
+
+
+
+
+
 /*---------------------------------recipe section start here---------------------------------*/
+
 
 .recip-head{
     text-align: center;
@@ -157,6 +177,8 @@ body {
     width:100%;
     margin-bottom: 80px;
 }
+
+
 #common{
     color:#2c3e50;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
@@ -178,6 +200,7 @@ body {
 #common h2,p{
     margin-bottom: 20px;
 }
+
 
 .card-1 img{
     width:300px;
@@ -208,19 +231,32 @@ body {
 }
 
 /*---------------------------------recipe section end here---------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
 /*---------------------------------order page start here---------------------------------*/
 .order{
     display: flex;
     width:100%;
     
 }
+
+
 .l-order{
     width:50%;
     padding:40px;
     margin:40px 0px 10px 80px;
     position: relative;
     box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
-
 }
 .l-order h1{
     color:#2c3e50;
@@ -229,7 +265,6 @@ body {
 .l-order form{
     width:280px;
     margin:0 auto;
-    /* border:1px solid red; */
     padding:20px;
 }
 .l-order input{
@@ -239,6 +274,8 @@ body {
 .l-order span{
     z-index:1;
 }
+
+
 #icon-1{
     position:absolute;
     top:21%;
@@ -255,11 +292,15 @@ body {
     top:49%;
     left:36%;
 }
+
+
 input{
     box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
     border:none;
     border-right: 5px solid #e96443;
 }
+
+
 .signup{
     width:100%;
     text-align: center;
@@ -268,6 +309,8 @@ input{
 .signup a{
     text-decoration: none;
 }
+
+
 .anchor{
     width:100%;
    justify-content: center;
@@ -281,6 +324,8 @@ input{
     margin-top: 13px;
     color:#2c3e50;
 }
+
+
 .another-anchor{
     display: flex;
     margin-top: 40px;
@@ -302,12 +347,16 @@ input{
 .r-order{
     margin-top: 40px;
 }
+
+
 .img-div img{
     width:600px;
     margin-top: -20px;  
     box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.9); 
     margin-left: -150px;
 }
+
+
 .icon-div{
     width:100%;
     height:100px;
@@ -323,9 +372,17 @@ input{
 
 
 
-/*order page ends here*/
+/*- ---------------------------------order page ends here- ---------------------------------*/
 
-/**footer starts here*/
+
+
+
+
+
+
+
+
+/*- ---------------------------------*footer starts here- ---------------------------------*/
 
 footer{
     background: #2c3e50;
@@ -344,7 +401,7 @@ footer h2,p{
 footer h4{
     font-size: 10px;
 }
-/**footer ends here*/
+/*- ---------------------------------*footer ends here*- ---------------------------------/
 
 
 
@@ -382,7 +439,3 @@ footer h4{
 
 
 
-
-/* .empty{
-    height:800px;
-} */
